@@ -2,6 +2,8 @@ from flask import Flask
 
 app = Flask(__name__)
 
+print("FLASK_VERSION")
+
 @app.route("/")
 def hello():
     return "Hello Docker V1"
